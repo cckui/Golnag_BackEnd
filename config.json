@@ -1,0 +1,37 @@
+{
+    "Mode": "d",
+    "IP": ":8888",
+    "//RemoteIP": "demos.kaazing.com/echo",
+    "//RemoteIP": "192.168.11.103:9090",
+    "//RemoteIP": "192.168.11.235:9090",
+    "RemoteIP": "127.0.0.1:9090",
+    "CacheIP": "127.0.0.1:6379",
+    "//CacheIP": "192.168.11.235:6379",
+    "//CacheIP": "192.168.11.103:6379",
+    "Database": {
+        "SQL_IP": "127.0.0.1:3306",
+        "//SQL_IP": "192.168.11.235:3306",
+        "//SQL_IP": "192.168.11.103:3306",
+        "SQL_Account": "root",
+        "SQL_Password": "123"
+    },
+    "Log": {
+        "//OutLevel": "1(Log Write File & Stdout)、2(Log Write Stdout)、3(Log Write File)",
+        "OutLevel": 2,
+        "//Format": "1(Normal)、2(JSON)",
+        "Format": 1,
+        "Path": "./logs/"
+    },
+    "DB_A": {
+        "account": "root",
+        "ip": "127.0.0.1",
+        "password": "123",
+        "port": "3306"
+    },
+    "DB_S": {
+        "account": "root",
+        "ip": "127.0.0.1",
+        "password": "123",
+        "port": "3306"
+    }
+}
